@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS austin_crime (
+    address TEXT,
+    census_tract TEXT,
+    clearance_date TEXT,
+    clearance_status TEXT,
+    council_district_code TEXT,
+    description TEXT,
+    district TEXT,
+    latitude float,
+    location TEXT,
+    location_description TEXT,
+    longitude float,
+    primary_type TEXT,
+    timestamp timestamp,
+    unique_key TEXT,
+    x_coordinate float,
+    y_coordinate float,
+    year TEXT,
+    zipcode TEXT
+);
