@@ -4,3 +4,8 @@ psycopg2
 numpy
 scikit-learn
 matplotlib
+tqdm
+
+# MTurk
+boto3
+botocore
